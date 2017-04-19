@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.soccer-field{
+  border: 2px solid white;
+  max-width: 40rem;
+  max-height: 20rem;
+  background-color: #8BB27A;
+}
+
+.touch-line{
+  border: inherit;
+  max-width: 93.75%;
+  max-height: 88.24%;
+}
+
+.center-circle{
+  max-width: 16.67%;
+  max-height: 33.34%;
+  border: inherit;
+  border-radius: 50%;
+}
+
+.centered-element{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.penalty-box{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: inherit;
+  width: 13.3%;
+  max-height: 60%;
+}
+
+.penalty-box-left{
+  border-left: none;
+}
+
+.penalty-box-right{
+  right: 0;
+  border-right: none;
+}
+
+.small-circle{
+  width: 2.75%;
+  height: 5.85%;
+  border-radius: 50%;
+  position: absolute;
+  top: 19%;
+  left: 12%;
+  box-shadow: 2.5px 2.5px 3px #B6BBB5;
+  background-color: #FDFDFD;
+}
+
+.small-circle-2{
+  left: 44%;
+  top: 9%;
+}
+
+.small-circle-3{
+  top: 74%;
+  left: 83%;
+}
